@@ -1,1 +1,1 @@
-web: gunicorn projeto_acaraje.wsgi
+web: gunicorn acaraje.wsgi
