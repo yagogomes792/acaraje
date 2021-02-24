@@ -1,1 +1,1 @@
-web: gunicorn acaraje.wsgi --log-file -
+web: gunicorn acaraje.wsgi
