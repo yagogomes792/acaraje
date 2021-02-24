@@ -1,1 +1,1 @@
-web: gunicorn acaraje.wsgi
+web: gunicorn acarajeapp.wsgi
