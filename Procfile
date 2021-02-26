@@ -1,3 +1,1 @@
-web: gunicorn acaraje.wsgi:application --log-file - --log-level debug
-python manage.py collectstatic --noinput
-manage.py migrate
+web: gunicorn --log-file=- acaraje.wsgi:application
